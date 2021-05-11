@@ -1,36 +1,28 @@
-<html>
-
-namespace AshBaker;
-
+```php
+namespace DanyelGranzotti;
 class About extends Me
 {
-    public function getCurrentWorkplace(): array
+    public function getOccupation(): array
     {
         return [
-            'workplace' => [
-                'company' => 'Qquicker',
-                'position' => 'Founder'         
-            ]
+           'company' => 'UFCQuixadá',
+           'position' => 'ComputerEngineeringStudent'         
         ];
     }
-
     public function getDailyKnowledge(): array
     {
         return [
-            Php::class,
+            EmbeddedSystems::class,
+            ThreeDimensionalPrinting::class,
             Javascript::class,
-            Laravel::class,
-            Vuejs::class,
-            Angular::class,
             ReactNative::class,
-            TailwindCss::class,
             Aws::class,
         ];
     }
-
     public function getFutureGoal(): string
     {
         return 'To contribute to open source.';
     }
+}
+```
 
-</html>
