@@ -1,15 +1,15 @@
 <?php
 
-namespace DanyelGranzotti;
+namespace AshBaker;
 
 class About extends Me
 {
-    public function getOcupation(): array
+    public function getCurrentWorkplace(): array
     {
         return [
-            'School' => [
-                'university' => 'UFC - Quixadá',
-                'position' => '1°S'         
+            'workplace' => [
+                'company' => 'Qquicker',
+                'position' => 'Founder'         
             ]
         ];
     }
@@ -17,9 +17,13 @@ class About extends Me
     public function getDailyKnowledge(): array
     {
         return [
-
+            Php::class,
             Javascript::class,
+            Laravel::class,
             Vuejs::class,
+            Angular::class,
+            ReactNative::class,
+            TailwindCss::class,
             Aws::class,
         ];
     }
