@@ -1,3 +1,5 @@
+<?php
+
 namespace DanyelGranzotti;
 
 class About extends Me
