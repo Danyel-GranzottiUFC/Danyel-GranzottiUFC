@@ -13,7 +13,7 @@ class About extends Me
     {
         return [
             EmbeddedSystems::class,
-            Three-DimensionalModeling::class,
+            3D-Modeling::class,
             Javascript::class,
             ReactNative::class,
             Aws::class,
