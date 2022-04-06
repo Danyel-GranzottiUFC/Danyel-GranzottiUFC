@@ -21,8 +21,12 @@ class About extends Me
             EmbeddedSystems::class,
             3D-Modeling::class,
             Javascript::class,
-            ReactNative::class,
-            Aws::class,
+            React::class,
+            Vue::class,
+            HTML5::class, 
+            CSS3::class, 
+            Next.js::class,
+            Bootstrap::class
         ];
     }
     public function getFutureGoal(): string
