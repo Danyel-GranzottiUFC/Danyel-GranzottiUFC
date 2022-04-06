@@ -9,6 +9,12 @@ class About extends Me
            'position' => 'ComputerEngineeringStudent'         
         ];
     }
+    public function getWebDeveloperPortifolio(): array
+    {
+        return [
+           'url' => 'https://danyel-granzotti-portifolio.netlify.app/'         
+        ];
+    }
     public function getDailyKnowledge(): array
     {
         return [
